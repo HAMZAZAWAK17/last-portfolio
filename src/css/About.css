@@ -1,0 +1,85 @@
+.about-section {
+       padding: 2rem 0;
+     }
+     
+     .about-content {
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+     }
+     
+     .about-image {
+       flex: 1;
+     }
+     
+     .about-image img {
+       width: 100%;
+       max-width: 400px;
+       border-radius: 10px;
+       object-fit: cover;
+       box-shadow: var(--box-shadow);
+     }
+     
+     .about-text {
+       flex: 2;
+     }
+     
+     .about-text h3 {
+       font-size: 1.5rem;
+       margin-bottom: 1rem;
+       color: var(--primary-color);
+     }
+     
+     .about-text p {
+       margin-bottom: 1.5rem;
+       line-height: 1.7;
+     }
+     
+     .personal-info {
+       margin: 2rem 0;
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 1rem;
+     }
+     
+     .info-item {
+       display: flex;
+       align-items: center;
+     }
+     
+     .info-label {
+       font-weight: 600;
+       width: 100px;
+     }
+     
+     .info-value {
+       color: var(--primary-color);
+     }
+     
+     .cv-button {
+       display: inline-flex;
+       align-items: center;
+       gap: 0.5rem;
+       padding: 0.8rem 1.5rem;
+       background-color: var(--primary-color);
+       color: white;
+       border-radius: 5px;
+       font-weight: 600;
+       transition: all 0.3s;
+       text-decoration: none;
+       margin-top: 1rem;
+     }
+     
+     .cv-button:hover {
+       background-color: var(--secondary-color);
+     }
+     
+     @media (min-width: 768px) {
+       .about-content {
+         flex-direction: row;
+       }
+     
+       .personal-info {
+         grid-template-columns: 1fr 1fr;
+       }
+     }
