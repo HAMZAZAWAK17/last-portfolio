@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaDownload } from 'react-icons/fa';
 import '../css/About.css';
-import aboutme from '../Assets/aboutme.jpg';
+import aboutme from '../Assets/coder.jpeg';
 import cv from '../Assets/cv.pdf'; // Assurez-vous d'avoir votre CV dans le dossier Assets
 
 const About = () => {
@@ -76,7 +76,7 @@ const About = () => {
             </div>
             <div className="info-item">
               <span className="info-label">Phone:</span>
-              <span className="info-value">+212687787404</span>
+              <span className="info-value">+212 640-347045</span>
             </div>
           </div>
           
