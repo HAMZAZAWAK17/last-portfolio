@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaDatabase, FaEllipsisH } from 'react-icons/fa';
 import { SiExpress, SiMysql, SiMongodb, SiLaravel } from 'react-icons/si';
-import homepic from '../Assets/Coder.jpeg';
+import homepic from '../Assets/about.png';
 import '../css/Home.css';
 
 const Home = () => {
