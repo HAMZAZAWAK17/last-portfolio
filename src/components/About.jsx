@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaDownload } from 'react-icons/fa';
 import '../css/About.css';
-import aboutme from '../Assets/Coder.jpeg';
+import aboutme from '../Assets/about.png';
 import cv from '../Assets/cv.pdf'; // Assurez-vous d'avoir votre CV dans le dossier Assets
 
 const About = () => {
